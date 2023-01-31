@@ -240,7 +240,7 @@ body {
   color: var(--title-color);
 }
 
-.mobile-link > .current {
+.mobile-link.current {
   color: var(--accent-color);
 }
 
