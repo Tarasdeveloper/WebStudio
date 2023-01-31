@@ -1,0 +1,128 @@
+@media screen and (min-width: 1200px)  {
+   .header {
+      padding: 24px 0 24px;
+   }
+
+   .header-address-item:not(:last-child) {
+      margin-right: 40px;
+   }
+
+   .header-address-list {
+      width: auto;
+   }
+
+   .header-address-link {
+      font-size: 16px;
+      line-height: 1.5;
+   }
+
+   .header-address-link:hover,
+   .header-address-link:focus {
+      color: var(--accent-color);
+   }
+
+   .hero {
+     background-image: var(--bg-gradient), url("../images/office-bg.jpg");
+     padding: 192px 0;
+   }
+   
+   @media (min-device-pixel-ratio: 2),
+     (min-resolution: 192dpi),
+     (min-resolution: 2dppx) {
+     .hero {
+       background-image: var(--bg-gradient), url("../images/office-bg-x2.jpg");
+     }
+   }
+
+   .hero > .container {
+      max-width: auto;
+   }
+
+   .main-title {
+      margin: 0 auto 48px;
+   }
+
+   .qwalities {
+      padding: 120px 0;
+   }
+
+   .qwalities-list {
+      justify-content: space-between;
+   }
+
+   .qwalities-icon {
+      display: block;
+      padding: 24px 100px;
+      background-color: var(--background-color);
+      border-radius: 4px;
+      margin-bottom: 8px;
+   }
+
+   .qwalities-title {
+      font-size: 20px;
+   }
+
+   .qwalities-item {
+      max-width: 264px;
+   }
+
+   .team {
+      padding: 120px 0;
+   }
+
+   .team-list {
+      flex-direction: row;
+   }
+
+   /* ______________Works_____________ */
+   .works {
+      display: block;
+      padding-bottom: 120px;
+   }
+
+   .works-list {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+   }
+
+   /* ______________Customers_____________ */
+   .customers {
+      padding: 120px 0;
+   }
+
+   .customers > .container {
+      max-width: 1158px;
+   }
+
+   .customers-item {
+      width: calc((100% - 120px) / 6);
+   }
+
+   /* ______________Footer_____________ */
+   .footer {
+      padding: 120px 0;
+   }
+
+   .footer > .container {
+      max-width: 1158px;
+   }
+
+   .footer-inner {
+      align-items: flex-start;
+   }
+
+   .footer-wrapper {
+      margin-bottom: 0;
+      margin-right: 120px;
+   }
+
+   .footer-media {
+      margin-right: auto;
+      margin-bottom: 0;
+   }
+
+   .footer-input {
+      margin-right: 24px;
+   }
+}
