@@ -53,6 +53,7 @@
    .main-title {
       font-size: 56px;
       margin: 0 auto 40px;
+      max-width: 500px;
    }
 
    .qwalities-title {
