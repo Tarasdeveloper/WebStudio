@@ -326,6 +326,8 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  row-gap: 72px;
+  column-gap: 24px;
 }
 
 .qwalities-icon {
@@ -343,10 +345,6 @@ body {
 
 .qwalities-item {
   max-width: 100%;
-}
-
-.qwalities-item:not(:last-child){
-  margin-bottom: 72px;
 }
 
 .qwalities-text {

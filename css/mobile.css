@@ -2,4 +2,20 @@
    .mobile-address-tel {
       font-size: 36px;
    }
+
+   .qwalities > .container {
+      max-width: 500px;
+   }
+
+   .customers > .container {
+      max-width: 480px;
+   }
+
+   .footer > .container {
+      max-width: 396px;
+   }
+
+   .mobile-menu > .container {
+      max-width: 450px;
+   }
 }

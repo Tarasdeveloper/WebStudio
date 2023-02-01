@@ -56,12 +56,20 @@
       max-width: 500px;
    }
 
+   .qwalities > .container {
+      max-width: 1000px;
+   }
+
    .qwalities-title {
       text-align: left;
    }
 
    .qwalities-item {
       max-width: 356px;
+   }
+
+   .team > .container {
+      max-width: 730px;
    }
 
    .team-list {

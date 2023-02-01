@@ -46,6 +46,10 @@
       padding: 120px 0;
    }
 
+   .qwalities > .container {
+      max-width: 1158px;
+   }
+
    .qwalities-list {
       justify-content: space-between;
    }
@@ -68,6 +72,10 @@
 
    .team {
       padding: 120px 0;
+   }
+
+   .team > .container {
+      max-width: 1158px;
    }
 
    .team-list {
@@ -101,7 +109,7 @@
 
    /* ______________Footer_____________ */
    .footer {
-      padding: 120px 0;
+      padding: 100px 0;
    }
 
    .footer > .container {
