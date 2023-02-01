@@ -118,6 +118,9 @@ body {
   padding: 24px 0;
   margin: 0 auto;
 }
+.header > .container {
+  max-width: 1158px;
+}
 
 .header-wrapper {
   display: flex;
@@ -344,7 +347,7 @@ body {
 }
 
 .qwalities-item {
-  max-width: 100%;
+  max-width: 396px;
 }
 
 .qwalities-text {

@@ -1,21 +1,8 @@
 @media screen and (min-width: 428px) {
-   .mobile-address-tel {
-      font-size: 36px;
-   }
-
-   .qwalities > .container {
-      max-width: 386px;
-   }
-
-   .customers > .container {
+   .container {
       max-width: 428px;
    }
-
-   .footer > .container {
-      max-width: 396px;
-   }
-
-   .mobile-menu > .container {
-      max-width: 450px;
+   .mobile-address-tel {
+      font-size: 36px;
    }
 }
