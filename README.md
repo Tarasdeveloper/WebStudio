@@ -1,3 +1,2 @@
-# Owner avatar
-WebStudio
+WebStudio :html, css, javascript
 
